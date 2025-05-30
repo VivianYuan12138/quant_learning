@@ -1,0 +1,21 @@
+# 核心数据分析包
+pandas>=1.5.0
+numpy>=1.24.0
+scipy>=1.10.0
+
+# 可视化包
+matplotlib>=3.5.0
+seaborn>=0.11.0
+
+# 金融数据获取
+akshare>=1.11.0
+tushare>=1.2.80
+
+# 机器学习（可选，用于高级策略）
+scikit-learn>=1.2.0
+
+# 其他工具包
+openpyxl>=3.0.0  # Excel文件读写
+xlrd>=2.0.0      # Excel文件读取
+joblib>=1.2.0    # 并行计算
+tqdm>=4.64.0     # 进度条显示 

@@ -1,0 +1,20 @@
+name: quant
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pandas>=1.5.0
+  - numpy>=1.24.0
+  - scipy>=1.10.0
+  - matplotlib>=3.5.0
+  - seaborn>=0.11.0
+  - scikit-learn>=1.2.0
+  - openpyxl>=3.0.0
+  - xlrd>=2.0.0
+  - joblib>=1.2.0
+  - tqdm>=4.64.0
+  - pip
+  - pip:
+    - akshare>=1.11.0
+    - tushare>=1.2.80 
